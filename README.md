@@ -4,7 +4,7 @@ Creates a link tag of the given name using a URL created by the set of options. 
 
 [![Gem Version](https://img.shields.io/gem/v/active_link_to.svg?style=flat)](http://rubygems.org/gems/active_link_to)
 [![Gem Downloads](https://img.shields.io/gem/dt/active_link_to.svg?style=flat)](http://rubygems.org/gems/active_link_to)
-[![Build Status](https://img.shields.io/travis/comfy/active_link_to.svg?style=flat)](https://travis-ci.org/comfy/active_link_to)
+[![CI](https://github.com/comfy/active_link_to/actions/workflows/ci.yml/badge.svg)](https://github.com/comfy/active_link_to/actions/workflows/ci.yml)
 [![Gitter](https://badges.gitter.im/comfy/comfortable-mexican-sofa.svg)](https://gitter.im/comfy/comfortable-mexican-sofa)
 
 ## Install
