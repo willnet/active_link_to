@@ -4,6 +4,11 @@ gemspec path: "../../"
 
 gem "actionpack", "~> 5.0.0"
 
+# loofah 2.21.1 needs Nokogiri::HTML4 (nokogiri >= 1.12, so Ruby >= 2.5) but
+# only declares nokogiri >= 1.5.9, so bundler happily picks it on older rubies.
+# Later loofah releases fixed the constraint by requiring Ruby >= 2.5.
+gem "loofah", "< 2.21" if RUBY_VERSION < "2.5"
+
 group :test do
   gem 'minitest'
   gem 'rake'
